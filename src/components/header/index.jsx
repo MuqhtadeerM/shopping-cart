@@ -11,14 +11,17 @@ export default function Header() {
 						</h1>
 					</div>
 				</Link>
-				<ul className="flex list-none items-center space-x-6 text-gray-800 font-semibold ">
+				<ul className="flex gap-6 items-center text-gray-800 font-semibold">
 					<Link to={"/"}>
-						<li className="cursor-pointer">Home</li>
+						<li className="cursor-pointer text-2xl font-bold text-red-950 hover:text-red-700 transition-all">
+							Home
+						</li>
 					</Link>
 					<Link to={"/cart"}>
-						<li className="cursor-pointer">Cart</li>
+						<li className="cursor-pointer text-2xl font-bold text-red-950 hover:text-red-700 transition-all">
+							Cart
+						</li>
 					</Link>
-
 				</ul>
 			</nav>
 		</div>

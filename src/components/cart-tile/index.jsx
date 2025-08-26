@@ -12,17 +12,17 @@ export default function CartTile({ cartItem }) {
 				<div className="flex p-3">
 					<img
 						src={cartItem?.image}
-						className="h-28 rounded-lg"
+						className="h-20 w-20 object-contain"
 						alt={cartItem?.title}
 					/>
-					<div className="ml-10 self-start space-y-5 ">
-						<h1 className="text-xl text-white font-bold">{cartItem?.title}</h1>
+					<div className="flex-1">
+						<h1 className="text-lg text-white font-bold">{cartItem?.title}</h1>
 						<p className="text-white font-extrabold">{cartItem?.price}</p>
 					</div>
 				</div>
 				<div>
 					<button
-						className="bg-red-950 text-white border-2 rounded-lg font-bold p-4"
+						className="bg-red-950 text-white border-2 rounded-lg font-bold p-3"
 						onClick={handleRemoveFromCart}
 					>
 						Remove From Cart

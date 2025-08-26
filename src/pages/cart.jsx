@@ -18,16 +18,16 @@ export default function Cart() {
 		<div className="flex justify-center">
 			{cart && cart.length ? (
 				<>
-					<div className="min-h-[80vh] grid md:grid-cols-2 max-w-6xl  mx-auto">
-						<div className="flex flex-col justify-center items-center p-3">
+					<div className="grid md:grid-cols-3 gap-6 max-w-6xl w-full mx-auto p-4">
+						<div className="md:col-span-2 flex flex-col gap-4">
 							{cart.map((cartItem) => (
 								<CartTile key={cartItem.id} cartItem={cartItem} />
 							))}
 						</div>
 					</div>
 
-					<div className="w-[300px]">
-						<div className="flex flex-col justify-center items-end  p-5  space-y-5 mt-14  ">
+					<div className="md:col-span-1 w-full">
+						<div className="flex flex-col justify-center items-center p-5 space-y-6 bg-gray-100 rounded-md shadow-md">
 							<h1 className="font-bold text-lg text-red-800 ">
 								Your Cart Summary
 							</h1>
