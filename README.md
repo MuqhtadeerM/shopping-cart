@@ -1,12 +1,61 @@
-# React + Vite
+# Shopping Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern web-based Shopping Cart application, built with React and Vite. This project demonstrates adding, removing, and viewing products in a cart with real-time updates and a responsive UI.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the app live: [Shopping Cart App](https://shopping-cart-khaki-omega.vercel.app/)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Browse products and view details
+- Add and remove items from the cart
+- See real-time cart updates and total price
+- Responsive and user-friendly design
+
+## Tech Stack
+
+- **React** – UI components and state management
+- **Vite** – Fast development/build tool
+- **JavaScript** – Application logic
+- **ESLint** – Code linting and quality
+- **Redux** - Global State Management
+- **Routers** - URL Navigation 
+
+## Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/MuqhtadeerM/shopping-cart.git
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd shopping-cart
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and go to `http://localhost:5173`
+
+## Folder Structure
+
+- `src/` – Source code
+- `public/` – Public assets
+- `index.html` – Root HTML file
+- `package.json` – Project metadata and dependencies
+
+## License
+
+This project is for educational and demonstration purposes only.
+
+---
+Made with ❤️ by [MuqhtadeerM](https://github.com/MuqhtadeerM)
